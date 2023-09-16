@@ -11,6 +11,9 @@
 		5ED7FE192AB4422A0064AF9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE182AB4422A0064AF9F /* ContentView.swift */; };
 		5ED7FE1B2AB4422B0064AF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED7FE1A2AB4422B0064AF9F /* Assets.xcassets */; };
 		5ED7FE1E2AB4422B0064AF9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED7FE1D2AB4422B0064AF9F /* Preview Assets.xcassets */; };
+		5ED7FE252AB4430B0064AF9F /* MPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE242AB4430B0064AF9F /* MPCView.swift */; };
+		5ED7FE272AB443610064AF9F /* NIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE262AB443610064AF9F /* NIView.swift */; };
+		5ED7FE2A2AB4441D0064AF9F /* MPC&NI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		5ED7FE182AB4422A0064AF9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ED7FE1A2AB4422B0064AF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED7FE1D2AB4422B0064AF9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ED7FE242AB4430B0064AF9F /* MPCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCView.swift; sourceTree = "<group>"; };
+		5ED7FE262AB443610064AF9F /* NIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIView.swift; sourceTree = "<group>"; };
+		5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPC&NI.swift"; sourceTree = "<group>"; };
+		5ED7FE2B2AB53BC80064AF9F /* UWB-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UWB-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,10 @@
 		5ED7FE152AB4422A0064AF9F /* UWB_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5ED7FE2B2AB53BC80064AF9F /* UWB-SwiftUI-Info.plist */,
 				5ED7FE162AB4422A0064AF9F /* UWB_SwiftUIApp.swift */,
-				5ED7FE182AB4422A0064AF9F /* ContentView.swift */,
+				5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */,
+				5ED7FE282AB443CD0064AF9F /* View */,
 				5ED7FE1A2AB4422B0064AF9F /* Assets.xcassets */,
 				5ED7FE1C2AB4422B0064AF9F /* Preview Content */,
 			);
@@ -65,6 +74,16 @@
 				5ED7FE1D2AB4422B0064AF9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ED7FE282AB443CD0064AF9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ED7FE182AB4422A0064AF9F /* ContentView.swift */,
+				5ED7FE242AB4430B0064AF9F /* MPCView.swift */,
+				5ED7FE262AB443610064AF9F /* NIView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED7FE192AB4422A0064AF9F /* ContentView.swift in Sources */,
+				5ED7FE2A2AB4441D0064AF9F /* MPC&NI.swift in Sources */,
+				5ED7FE272AB443610064AF9F /* NIView.swift in Sources */,
 				5ED7FE172AB4422A0064AF9F /* UWB_SwiftUIApp.swift in Sources */,
+				5ED7FE252AB4430B0064AF9F /* MPCView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = HAL4VQ7TLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UWB-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = HAL4VQ7TLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UWB-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
