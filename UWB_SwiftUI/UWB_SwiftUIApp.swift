@@ -12,7 +12,7 @@ struct UWB_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(MultipeerConnectivity())
+                .environmentObject(MultipeerConnectivityManager())
         }
     }
 }

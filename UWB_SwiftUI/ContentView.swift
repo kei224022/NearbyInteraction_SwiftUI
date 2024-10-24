@@ -7,31 +7,37 @@
 
 import SwiftUI
 
+// MARK: - Main ContentView for displaying tabs
+// 主要なタブ表示用のContentView
 struct ContentView: View {
+    // State variable to track the selected tab
+    // 選択されたタブを追跡するためのステート変数
     @State var selectedTag = 1
     
-    // MARK: - TagView
     var body: some View {
-        TabView(selection: $selectedTag){
+        // TabView to switch between different views
+        // 異なるビュー間を切り替えるためのTabView
+        TabView(selection: $selectedTag) {
             MPCView()
-                .tabItem{
+                .tabItem {
                     Label("Device", systemImage: "iphone.radiowaves.left.and.right")
+                    // デバイス関連のタブ
                 }
                 .tag(1)
                 
             NIView()
-                .tabItem{
+                .tabItem {
                     Label("UWB", systemImage: "airtag.radiowaves.forward")
+                    // UWB関連のタブ
                 }
                 .tag(2)
         }
     }
 }
 
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .environmentObject(MultipeerConnectivity())
-    }
+#Preview {
+    // Preview with environment object set for testing
+    // 環境オブジェクトを設定したプレビュー
+    ContentView()
+        .environmentObject(MultipeerConnectivityManager())
 }
