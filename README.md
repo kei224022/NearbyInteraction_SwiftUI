@@ -13,7 +13,7 @@ Installation
 
 　　　　　Clone the repository:
      
-     	git clone https://github.com/yourusername/your-repository-name.git
+     	git clone https://github.com/kei224022/NearbyInteraction_SwiftUI
 
  　　　　Open the project in Xcode:
 	Make sure you are using Xcode 12.0 or later.
