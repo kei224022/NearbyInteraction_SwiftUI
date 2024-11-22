@@ -20,7 +20,7 @@ class MultipeerConnectivityManager: NSObject, ObservableObject {
     
     // Unique identifier for the current device in the peer-to-peer network
     // ピアツーピアネットワークにおける現在のデバイスの一意識別子
-    private var myPeerID = MCPeerID(displayName: UIDevice.current.name)
+    private var myPeerID = MCPeerID(displayName: DeviceIdentifier.shared.getDeviceUUID())
     
     // Service to advertise the device in the peer-to-peer network
     // デバイスをピアツーピアネットワーク内でアドバタイズするためのサービス
