@@ -14,7 +14,6 @@
 		5ED7FE252AB4430B0064AF9F /* MPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE242AB4430B0064AF9F /* MPCView.swift */; };
 		5ED7FE272AB443610064AF9F /* NIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE262AB443610064AF9F /* NIView.swift */; };
 		5ED7FE2A2AB4441D0064AF9F /* MPC&NI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */; };
-		AACA5BBA2CF062A1005ECE99 /* DeviceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA5BB92CF062A1005ECE99 /* DeviceIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		5ED7FE262AB443610064AF9F /* NIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIView.swift; sourceTree = "<group>"; };
 		5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPC&NI.swift"; sourceTree = "<group>"; };
 		5ED7FE2B2AB53BC80064AF9F /* UWB-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UWB-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
-		AACA5BB92CF062A1005ECE99 /* DeviceIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 				5ED7FE2B2AB53BC80064AF9F /* UWB-SwiftUI-Info.plist */,
 				5ED7FE162AB4422A0064AF9F /* UWB_SwiftUIApp.swift */,
 				5ED7FE292AB4441D0064AF9F /* MPC&NI.swift */,
-				AACA5BB92CF062A1005ECE99 /* DeviceIdentifier.swift */,
 				5ED7FE282AB443CD0064AF9F /* View */,
 				5ED7FE1A2AB4422B0064AF9F /* Assets.xcassets */,
 				5ED7FE1C2AB4422B0064AF9F /* Preview Content */,
@@ -159,7 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACA5BBA2CF062A1005ECE99 /* DeviceIdentifier.swift in Sources */,
 				5ED7FE192AB4422A0064AF9F /* ContentView.swift in Sources */,
 				5ED7FE2A2AB4441D0064AF9F /* MPC&NI.swift in Sources */,
 				5ED7FE272AB443610064AF9F /* NIView.swift in Sources */,
